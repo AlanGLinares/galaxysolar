@@ -1,0 +1,30 @@
+.formulario-bg {
+  background-color: #19191B;
+
+
+
+}
+
+.formulario-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 120px; 
+  padding-top: 60px;
+}
+
+.formulario-container h1 {
+  color: var(--primary-text);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 12px;
+}
+
+.formulario-container p {
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 16px;
+  color: #5A657A;
+  width: 832px;
+  height: 110px;
+  text-align: left;
+}

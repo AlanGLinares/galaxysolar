@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 8000px;
+  overflow-x: hidden;
 }
 
 
@@ -23,9 +23,6 @@ img {
 
 }
 
-
-.container {
- }
 
  
  :root {

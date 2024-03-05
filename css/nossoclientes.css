@@ -39,11 +39,6 @@
   gap: 32px;
 }
 
-.clientes-main {
-}
-
-.clientes-main-1 {
-}
 
 .clientes-main-1 h3 {
   color: #fff;
@@ -81,4 +76,76 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+@media (max-width: 744px) {
+
+  .nossoclientes-bg {
+    padding: 20px;
+  }
+
+  .nossoclientes {
+    max-width: 744px;
+    padding-bottom: 80px;
+  }
+
+  .clientes-main {
+    padding-right: 20px;
+  }
+
+
+  .clientes-flex {
+    display: grid;
+    padding: 0px 12px;
+    margin-left: 45px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0px;
+  }
+
+  .clientes-main-1 {
+  }
+
+  .header-client {
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+
+  .header-client h1 {
+    padding-left: 20px;
+  }
+  
+  .c-main-3 {
+    display: none;
+  }
+}
+
+
+
+@media (max-width:375px) {
+  .nossoclientes {
+    padding-top: 0px;
+    padding-bottom: 4px;
+  }
+
+  .moblie-n-client {
+    display: none;
+  }
+
+
+  .header-client {
+    padding-right: 0px;
+    padding-bottom: 24px;
+  }
+
+
+  .header-client h1 {
+    font-size: 24px;
+    padding-left: 0px;
+  }
+
+
+  .clientes-flex p {
+    max-width: 343px;
+    color: #FFFFFFB2;
+  }
 }

@@ -1,8 +1,5 @@
 .formulario-bg {
   background-color: #19191B;
-
-
-
 }
 
 .formulario-container {
@@ -10,6 +7,7 @@
   margin: 0 auto;
   padding-left: 120px; 
   padding-top: 60px;
+  padding-bottom: 120px;
 }
 
 .formulario-container h1 {
@@ -27,4 +25,171 @@
   width: 832px;
   height: 110px;
   text-align: left;
+}
+
+.form input::selection::placeholder {
+  margin-left: 12px;
+}
+
+.form-nome-telefone {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 12px;
+}
+
+.form-nome-telefone label {
+  position: absolute;
+}
+
+.form {
+  display: block;
+  position: relative;
+}
+
+
+.icone {
+  position: absolute;
+  display: flex;
+  left: 10px;
+  top: 32px;
+  align-items: center;
+}
+
+.form label {
+  display: block;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+ 
+}
+
+
+.form-nome-telefone input::placeholder {
+  padding-left: 24px;
+}
+
+.form-email input::placeholder {
+  padding-left: 24px;
+}
+
+
+.form input {
+  padding: 12px 14px;
+  width: 544px;
+  border-radius: 5px;
+}
+
+.icone {
+  position: relative;
+}
+
+.form-email {
+  padding-bottom: 12px;
+}
+
+.form-email label {
+  position: absolute;
+}
+
+.form-email input {
+  width: 85%;
+}
+
+.form-msg label {
+  padding-bottom: 12px;
+}
+
+.form-msg {
+  padding-bottom: 12px;
+}
+
+.form-msg input {
+  width: 85%;
+  height: 154px;
+  display: flex;
+  
+}
+
+.form-msg input::placeholder {
+  position: absolute;
+  top: 15px;
+}
+
+.form-btn {
+  padding: 16px 135px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+@media (max-width: 744px) {
+  .formulario-container {
+    padding-left: 20px;
+    padding-bottom: 80px;
+  }
+
+  .formulario-container p {
+    max-width: 696px;
+  }
+
+
+
+  .formulario-main {
+  }
+
+  .form-nome-telefone {
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    padding-bottom: 8px;
+  }
+
+  .form input,
+  button {
+    width: 100%;
+  }
+
+}
+
+
+
+@media (max-width: 375px) {
+  .formulario-container h1 {
+    font-size: 28px;
+  }
+
+
+  .formulario-container p {
+    display: none;
+  }
+
+  .form-nome-telefone input {
+    padding-bottom: 12px;
+  }
+
+  .py-m {
+    padding-bottom: 12px;
+  }
+
+  input {
+    max-width: 345px;
+  }
+
+
+  .form-msg input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  .form-btn {
+    padding: 0px;
+    width: 345px;
+    font-size: 18px;
+    height: 58px;
+  }
 }

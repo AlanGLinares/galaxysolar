@@ -15,9 +15,6 @@
 }
 
 
-
-
-
 .conteudo-left h1 {
   font-family: 'Inter', sans-serif;
   font-size: 48px;
@@ -61,3 +58,53 @@
   padding-top: 20px;
 }
 
+
+@media (max-width: 744px) {
+    .beneficios-main {
+      grid-template-columns: 1fr;
+    }
+
+  .beneficios {
+    display: grid;
+    max-width: 744px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+  }
+
+  .conteudo-left {
+    padding-bottom: 40px;
+  }
+
+  .conteudo-main-right {
+    padding-left: 0px;
+    gap: 120px;
+  }
+}
+
+@media (max-width: 375px) {
+  .beneficios {
+    padding-top: 53px;
+  }
+
+  .conteudo-left h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    line-height: 39.35px;
+  }
+
+  .conteudo-left {
+    padding-bottom: 24px;
+}
+
+
+  .conteudo-left p {
+    max-width: 327px;
+  }
+
+  .conteudo-main-right{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+}

@@ -51,17 +51,66 @@
 
 
 
-@media (max-width: 1440px ) {
+@media (max-width: 744px ) {
   .header-menu {
-    background-color: #19191B;
-    padding: 32px 80px;
+    padding: 32px 12px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    margin-left: 70px;
   }
 
   .icone-header {
-    padding-left: 0px;
+    margin-left: 320px;
+    padding-bottom: 12px;
+  }
+}
+
+
+
+@media (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .header-bg {
+  }
+
+  .header-menu {
+    height: 120px;
+    width: 375px;
+  }
+
+
+  .menu {
+    margin-left: 0px;
+    position: relative;
+  }
+
+
+  .list-menu {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 95px;
+    background-color: #0076CB;
+  }
+
+
+  .list-menu li a  {
+  }
+
+  .icone-header {
+    margin-left: 0px;
+    padding-bottom: 12px;
+  }
+
+  .menu-moblie button {
+    background-color: #19191B;;
+    border: none;
     cursor: pointer;
   }
 }

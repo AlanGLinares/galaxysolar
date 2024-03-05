@@ -33,3 +33,37 @@
   color: var(--primary-color);
   font-weight: 700;
 }
+
+
+@media (max-width: 744px) {
+  .resultados {
+    margin-left: 40px;
+    width: 670px;
+  }
+
+  .md-number {
+    display: none;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .moblie-none {
+    display: none;
+  }
+
+  .md-number {
+    display: block;
+  }
+
+  .flex-item {
+  }
+
+
+  .resultados {
+    max-width: 343px;
+    margin-left: 20px;
+    margin-top: -50px;
+    
+  }
+ }

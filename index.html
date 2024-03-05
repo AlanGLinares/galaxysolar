@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Modal-teste</title>
+  <link rel="shortcut icon" href="./img1/icone/favicon-saturn.svg" type="image/icon">
+  <title>Galaxy Solar</title>
 </head>
 
 
@@ -27,12 +28,15 @@
         <li><a href="">Contate-nos</a></li>
       </ul>
     </nav>
+    <div class="menu-moblie">
+      <button><img class="icon-hamburger" src="./img1/icone/icon-moblie.svg" alt=""></button>
+    </div>
   </div>
 </header>
 
 <main>
   <section class="bg-section">
-    <div class="section-flex container ">
+    <div class="section-flex">
       <div class="conteudo">
         <h1>Energia limpa e renovavel <br> Para um mundo melhor.</h1>
         <p>Aqui, exploramos as soluções que impulsionam um mundo melhor e mais sustentável. Acreditamos no poder da
@@ -40,22 +44,22 @@
           nossa pegada ambiental. </p>
       </div>
       <div class="img-hero">
-        <img src="./img1/sungrow-emea-ceTSHQ0qars-unsplash 1.png" alt="" width="543" height="360">
+        <img src="./img1/sungrow-emea-ceTSHQ0qars-unsplash 1.png" alt="">
       </div>
     </div>
   </section>
 
   <div class="resultados">
     <div class="flex-item">
-      <div>
-        <span class="number-blue">+1200</span>
+      <div class="moblie-none">
+        <span class="number-blue ">+1200</span>
         <p>Baterias Instalados</p>
       </div>
-      <div>
+      <div class="md-number ">
         <span class="number-blue">+532</span>
         <p>Clientes</p>
       </div>
-      <div>
+      <div class="moblie-none">
         <span class="number-blue">R$ 46,331</span>
         <p>Dinheiro Economizado</p>
       </div>
@@ -70,11 +74,10 @@
   <div class="beneficios">
     <div class="beneficios-main">
       <div class="conteudo-left">
-        <h1>Sobre Nós <br>
-          e Benefícios.</h1>
-        <p>Nossa empresa especializada em soluções de <br> energia solar para propriedades residenciais, <br> comerciais
-          e rurais. Oferecemos uma gama de <br> serviços, incluindo projeto e instalação de sistemas de painéis solares,
-          bem como <br> manutenção e suporte continuados.</p>
+        <h1>Sobre Nós <br> e Benefícios.</h1>
+        <p>Nossa empresa especializada em soluções de  energia solar para propriedades residenciais,  comerciais
+          e rurais. Oferecemos uma gama de  serviços, incluindo projeto e instalação de sistemas de painéis solares,
+          bem como manutenção e suporte continuados.</p>
         <p>Nossa equipe de profissionais experientes tem um profundo conhecimento de tecnologia solar e está em oferecer
           aos nossos clientes o mais alto nível de serviço.</p>
         <p>Acreditamos que a energia solar é o futuro da energia e estamos dedicados a ajudar nossos clientes a fazer a
@@ -149,7 +152,7 @@
               </p>
             </div>
           </div>
-          <div class="clientes-main">
+          <div class="clientes-main moblie-n-client">
             <div>
               <div>
                 <img src="./img1/cliente 1-1.png" alt="">
@@ -158,7 +161,7 @@
               <p>A decisão de instalar um sistema fotovoltaico em minha casa foi a melhor escolha que já fiz. Agora, posso aproveitar a energia solar para alimentar meus aparelhos domésticos e iluminar todos os cômodos</p>
             </div>
           </div>
-          <div class="clientes-main">
+          <div class="clientes-main c-main-3">
             <div>
               <div>
                 <img src="./img1/cliente 1-2.png" alt="">
@@ -179,9 +182,9 @@
   <div class="trabalhos">
     <h1>Nosso Trabalhos.</h1>
     <div class="trabalhos-flex">
-      <div class="trabalhos-main">
+      <div class="trabalhos-main  order-1">
         <div class="img-1">
-          <div>
+          <div class="img-1-r  img-m-r">
             <img src="./img1/painelsolar.2.png" alt="" width="352px" height="483px">
           </div>
           <span class="res-s">Residencial</span>
@@ -189,16 +192,16 @@
       </div>
       <div class="trabalhos-main">
         <div class="img-2">
-          <div>
+          <div class="img-2-c">
             <img src="./img1/comercial 1.png" alt="">
           </div>
           <span class="com-s">Comercial</span>
         </div>
       </div>
-      <div class="trabalhos-main">
+      <div class="trabalhos-main   order">
         <div class="img-3">
-          <div>
-            <img src="./img1/rural 1.png" alt="">
+          <div class="img-3-r">
+            <img src="./img1/rural-d.png" alt="">
           </div>
           <span class="rur-s">Rural</span>
         </div>
@@ -214,40 +217,64 @@
         para suas necessidades. Não hesite em nos enviar uma mensagem ou ligar para nós para marcar uma consulta.
         Estamos sempre dispostos a responder a perguntas e ajudar de qualquer maneira que pudermos.</p>
       <div class="">
-        <form action="">
-          <div class="form-nome">
-            <label for="nome">Nome</label>
-            <img src="./img1/icone/user-square-2.svg" alt="">
-            <input type="text" name="nome" id="" placeholder="nome">
-          </div>
-          <div class="form-phone">
-            <label for="">Telefone</label>
-            <img src="./img1/icone/smartphone.svg" alt="">
-            <input type="text" name="" id="" placeholder="99999-9999">
-          </div>
-          <div class="form-email">
-            <label for="">Email</label>
-            <img src="./img1/icone/mail.svg" alt="" placeholder="email@exemplo.com">
-            <input type="text" name="" id="">
-          </div>
-          <div class="form-msg">
-            <label for="">Mensagem</label>
-            <input type="text" name="" id="" placeholder="o que você precisa ?">
-          </div>
-
-
-
-
-
-
-
-
-
-
+        <form action="formulario-main">
+          <div class="form">
+            <div class="form-nome-telefone">
+              <div class="py-m">
+                <label for="nome">Nome</label>
+                <img class="icone"src="./img1/icone/user-square-2.svg" alt="">
+                <input type="text" name="" id="" placeholder="nome">
+              </div>
+                <div class="py-m">
+                  <label for="telefone">Telefone</label>
+                  <img class="icone" src="./img1/icone/smartphone.svg" alt="">
+                  <input type="text" name="" id="" placeholder="99999-9999">
+                </div>
+            </div>
+            <div class="form-email">
+              <label for="email">Email</label>
+              <img class="icone"src="./img1/icone/mail.svg" alt="">
+              <input type="text" name="" id="" placeholder="email@exemplo.com">
+            </div>
+            <div class="form-msg">
+              <label for="mensagem">Mensagem</label>
+              <input type="text" name="" id="" placeholder="o que você precisa ?">
+            </div>
+          </div>  
+          <button class="form-btn gradiente" href="">enviar mensagem</button>
         </form>
       </div>
     </div>
   </div> 
+
+  <div class="footer-bg">
+    <div class="footer-main">
+      <div class="py-m">
+        <div class="footer-img">
+          <img src="./img1/icone/Header.Logo.svg" alt="">
+        </div>
+        <div class="icone-flex">
+          <a href=""><img src="./img1/icone/facebook.svg" alt=""></a>
+          <a href=""><img src="./img1/icone/youtube.svg" alt=""></a>
+          <a href=""><img src="./img1/icone/instagram.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="empresas">
+        <h3>Empresas</h3>
+        <a href="#">Sobre</a>    
+        <a href="#">Clientes</a>    
+      </div>
+      <div class="contatos">
+        <h3>Contatos</h3>
+        <span>+55 99 9999-9999</span>
+        <span>GalaxySolar@Galaxy.com</span>
+        <span>Rua Orbita do Sol, 03</span>
+        <span>Via Láctea, Terra</span>
+      </div>
+    </div>
+  </div>
+
+
 </main>
 
 
@@ -281,6 +308,27 @@
     <a class="btn-cadastre" href="">Cadastre-se</a>
   </div>
 </section>
+
+
+<!-- <section>
+  <div class="menu-moblie">
+    <div>
+      <div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div>
+        <div>
+          <img src="./img1/icone/Header.Logo.svg" alt="">
+        </div>
+        <div>Inicio</div>
+        <div>Clientes</div>
+        <div>Sobre</div>
+      </div>
+    </div>
+  </div>
+</section> -->
 
 
 <script type="module" src="./js/module/javascript.js"></script>

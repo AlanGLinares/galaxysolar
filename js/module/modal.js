@@ -4,6 +4,7 @@ export default function initModal() {
   const modalContainer = document.querySelector(
     '[data-modal="modal-container"]'
   );
+  
   if (abrirLogin && fecharBtn && modalContainer) {
     function initLogin(e) {
       e.preventDefault();

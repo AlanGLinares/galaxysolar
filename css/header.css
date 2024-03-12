@@ -1,6 +1,5 @@
 .header-bg {
   background-color: #19191B;
-  
 }
 
 .header-menu {
@@ -49,6 +48,9 @@
   transition: all 1s ease-out;
 } 
 
+.menu-moblie {
+  display: none;
+}
 
 
 @media (max-width: 744px ) {
@@ -58,6 +60,8 @@
     flex-wrap: wrap;
   }
 
+
+  
   .menu {
     margin-left: 70px;
   }
@@ -71,46 +75,81 @@
 
 
 @media (max-width: 375px) {
-  body {
-    overflow-x: hidden;
-  }
-
-
-  .header-bg {
-  }
-
-  .header-menu {
-    height: 120px;
-    width: 375px;
-  }
-
-
-  .menu {
-    margin-left: 0px;
-    position: relative;
-  }
-
-
-  .list-menu {
-    display: block;
-    position: absolute;
-    top: 15px;
-    right: 95px;
-    background-color: #0076CB;
-  }
-
-
-  .list-menu li a  {
-  }
-
   .icone-header {
     margin-left: 0px;
-    padding-bottom: 12px;
   }
 
-  .menu-moblie button {
-    background-color: #19191B;;
-    border: none;
-    cursor: pointer;
+  .active {
+    display: block !important;
   }
+
+  .menu {
+    width: 400px;
+  }
+
+  .list-menu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: #19191B;
+    z-index: 2000;
+    top: 87.4px;
+    left: 16px;
+    width: 345px;
+    padding: 4px;
+  }
+
+
+
+  .list-menu li:last-child {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .list-menu li {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid #5A657A;
+    width: 343px;
+    padding-top: 12px;
+
+  }
+
+  /* ICONE HAMBURGER FEITO COM CSS .hamburger {  
+    display: block;
+    height: 2px;
+    width: 18px;
+    border-top: 2px solid #0076CB;
+    padding-top: 4px;
+    margin: 4px;
+  }
+
+  .hamburger::after, .hamburger::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 18px;
+    padding-top: 2px;
+    border-top: 2px solid #0076CB;
+  }
+ */
+
+
+  .menu-moblie {
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    background-color: #19191B;
+    border: none;
+    position: absolute;
+    top: 45px;
+    right: 18px;
+  }
+
+
+
 }

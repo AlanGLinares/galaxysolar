@@ -75,6 +75,12 @@
 
 
 @media (max-width: 375px) {
+
+  body,html {
+    overflow-x:hidden;
+  }
+  
+
   .icone-header {
     margin-left: 0px;
   }

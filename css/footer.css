@@ -60,6 +60,15 @@
 }
 
 
+@media (max-width: 414px) {
+  .footer-bg {
+    background-color: #19191B;
+    width: 100vh;
+  }
+  
+}
+
+
 @media (max-width: 375px ) {
   .footer-bg {
     height: 488px;

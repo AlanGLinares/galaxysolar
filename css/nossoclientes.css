@@ -121,6 +121,18 @@
 
 
 
+
+@media (max-width: 414px) {
+  .nossoclientes-bg {
+    background-color: #19191B;
+    width: 100vh;
+  }
+  
+
+}
+
+
+
 @media (max-width:375px) {
   .nossoclientes {
     padding-top: 0px;

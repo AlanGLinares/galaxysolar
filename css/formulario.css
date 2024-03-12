@@ -126,6 +126,14 @@
 }
 
 
+@media (max-width: 414px) {
+  .formulario-bg {
+    background-color: #19191B;
+    width: 100vh;
+  }
+  
+}
+
 
 @media (max-width: 744px) {
   .formulario-container {
@@ -153,6 +161,11 @@
   button {
     width: 100%;
   }
+
+}
+
+
+@media (max-width: 414px) {
 
 }
 

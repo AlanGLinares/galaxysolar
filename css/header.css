@@ -73,6 +73,24 @@
 }
 
 
+@media (max-width: 414px) {
+  .header-bg {
+    background-color: #19191B;
+    width: 100vh;
+  }
+
+  .header-menu {
+    max-width: 1440px;
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+}
+
+
 
 @media (max-width: 375px) {
 

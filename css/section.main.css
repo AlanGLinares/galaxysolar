@@ -61,6 +61,16 @@
 }
 
 
+@media (max-width: 414px) {
+  .bg-section {
+    background-color: #19191B;
+    width: 100vh;
+  }
+
+}
+
+
+
 @media (max-width: 375px ) {
   .bg-section {
     max-width: 375px;

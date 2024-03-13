@@ -67,7 +67,7 @@
   }
 
   .icone-header {
-    margin-left: 320px;
+    margin-left: 0px;
     padding-bottom: 12px;
   }
 }
@@ -238,5 +238,4 @@
     top: 45px;
     right: 18px;
   }
-
 }

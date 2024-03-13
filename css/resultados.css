@@ -35,7 +35,7 @@
 }
 
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
   .resultados {
     margin-left: 40px;
     width: 670px;
@@ -46,6 +46,26 @@
   }
 }
 
+
+@media (max-width: 414px) {
+  .moblie-none {
+    display: none;
+  }
+
+  .md-number {
+    display: block;
+  }
+
+  .flex-item {
+  }
+
+
+  .resultados {
+    max-width: 343px;
+    margin-left: 20px;
+    margin-top: -50px;
+  }
+ }
 
 @media (max-width: 375px) {
   .moblie-none {
@@ -64,6 +84,5 @@
     max-width: 343px;
     margin-left: 20px;
     margin-top: -50px;
-    
   }
  }

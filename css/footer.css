@@ -53,7 +53,7 @@
 }
 
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
   .footer-main {
     padding-left: 20px;
   }
@@ -61,9 +61,14 @@
 
 
 @media (max-width: 414px) {
+
   .footer-bg {
     background-color: #19191B;
-    width: 100vh;
+    height: 450px;
+  }
+
+  .footer-main {
+    display: grid;
   }
   
 }
@@ -97,13 +102,5 @@
   .icone-flex {
     padding-bottom: 36px;
   }
-
-
-
-
-
-
-
-
 }
 

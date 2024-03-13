@@ -53,7 +53,7 @@
 }
 
 
-@media (max-width: 744px ) {
+@media (max-width: 768px ) {
   .header-menu {
     padding: 32px 12px;
     display: flex;
@@ -73,31 +73,96 @@
 }
 
 
+
 @media (max-width: 414px) {
-  .header-bg {
+  body, html {
+    overflow-x: hidden;
+  }
+
+
+  .icone-header {
+    margin-left: 20px;
+  }
+
+  .active {
+    display: block !important;
+  }
+
+  .menu {
+    width: 415px;
+  }
+
+  .list-menu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
     background-color: #19191B;
-    width: 100vh;
-  }
-
-  .header-menu {
-    max-width: 1440px;
-    padding: 32px 0;
-    display: flex;
-    align-items: center;
+    z-index: 2000;
+    top: 87.4px;
+    left: 16px;
+    width: 375px;
+    padding: 4px;
   }
 
 
+
+  .list-menu li:last-child {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .list-menu li {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid #5A657A;
+    width: 375px;
+    padding-top: 12px;
+
+  }
+
+  /* ICONE HAMBURGER FEITO COM CSS .hamburger {  
+    display: block;
+    height: 2px;
+    width: 18px;
+    border-top: 2px solid #0076CB;
+    padding-top: 4px;
+    margin: 4px;
+  }
+
+  .hamburger::after, .hamburger::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 18px;
+    padding-top: 2px;
+    border-top: 2px solid #0076CB;
+  }
+ */
+
+
+  .menu-moblie {
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    background-color: #19191B;
+    border: none;
+    position: absolute;
+    top: 45px;
+    right: 18px;
+  }
 
 }
 
 
 
 @media (max-width: 375px) {
-
-  body,html {
-    overflow-x:hidden;
+  body, html {
+    overflow-x: hidden;
   }
-  
 
   .icone-header {
     margin-left: 0px;
@@ -173,7 +238,5 @@
     top: 45px;
     right: 18px;
   }
-
-
 
 }

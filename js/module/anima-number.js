@@ -14,6 +14,6 @@ export default function initAnimation () {
       if (start > total ) {
         clearInterval(timer)
       }
-    }, 3);
+    }, 25 * Math.random());
   })
 }

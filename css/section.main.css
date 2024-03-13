@@ -38,7 +38,7 @@
   width: 535px;
 }
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
   .section-flex {
     flex-direction: column;
     justify-content: start;
@@ -61,12 +61,29 @@
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 414px ) {
   .bg-section {
-    background-color: #19191B;
-    width: 100vh;
+    height: 600px;
   }
 
+  .section-flex {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+
+  .conteudo h1 {
+    font-size: 28px;
+  }
+
+  .conteudo p {
+    width: 343px;
+  }
+
+  .img-hero img {
+    max-width: 343px;
+    margin-bottom: 60px;
+  }
 }
 
 

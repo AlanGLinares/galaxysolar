@@ -78,7 +78,7 @@
   line-height: 21px;
 }
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
 
   .nossoclientes-bg {
     padding: 20px;
@@ -102,8 +102,6 @@
     padding-left: 0px;
   }
 
-  .clientes-main-1 {
-  }
 
   .header-client {
     padding-right: 20px;
@@ -125,10 +123,29 @@
 @media (max-width: 414px) {
   .nossoclientes-bg {
     background-color: #19191B;
-    width: 100vh;
+    padding: 0px;
   }
-  
 
+  .nossoclientes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-client {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .clientes-main-1 {
+    padding-left: 0px;
+  }
+   
+  
+  .clientes-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
 }
 
 

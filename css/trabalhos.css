@@ -68,7 +68,7 @@
 }
 
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
   .trabalhos-flex {
     flex-direction: column;
     justify-content: center;
@@ -140,6 +140,59 @@
 }
 
 
+@media (max-width: 414px) {
+  .trabalhos {
+    padding-top: 32px;
+  }
+
+  .trabalhos h1 {
+    font-size: 28px;
+    padding-bottom: 24px;
+  }
+  
+  .img-1 {
+    background-image: url(../img1/moblie-residencial.png);
+    width: 343px;
+    height: 219px;
+  }
+
+  .img-2 {
+    background-image: url(../img1/moblie-comercial.png);
+    width: 343px;
+    height: 219px;
+  }
+
+  .img-3 {
+    background-image: url(../img1/moblie-rural.png);
+    width: 343px;
+    height: 219px;
+  }
+
+
+  .res-s,
+  .com-s,
+  .rur-s {
+    font-size: 24px;
+  }
+
+
+  .res-s {
+    left:  103.87px;
+  }
+
+
+  .com-s {
+    left: 111.87px;
+  }
+
+  .rur-s {
+    left: 140.87px;
+  }
+}
+
+
+
+
 @media (max-width: 375px) {
   .trabalhos {
     padding-top: 32px;
@@ -188,14 +241,4 @@
   .rur-s {
     left: 140.87px;
   }
-  
-
-
-
-
-
-
-
-
-
 }

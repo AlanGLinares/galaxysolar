@@ -1,5 +1,4 @@
 .beneficios {
-  height: 100%;
   max-width: 1440px;
   padding: 120px;
   display: grid;
@@ -27,7 +26,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
-  padding-left: 323px;
+  padding-left: 200px;
 }
 
 .conteudo-left p {
@@ -59,7 +58,7 @@
 }
 
 
-@media (max-width: 744px) {
+@media (max-width: 768px) {
     .beneficios-main {
       grid-template-columns: 1fr;
     }
@@ -78,6 +77,35 @@
   .conteudo-main-right {
     padding-left: 0px;
     gap: 120px;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .beneficios {
+    padding-top: 53px;
+  }
+
+  .conteudo-left h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    line-height: 39.35px;
+  }
+
+  .conteudo-left {
+    padding-bottom: 24px;
+}
+
+
+  .conteudo-left p {
+    max-width: 327px;
+  }
+
+  .conteudo-main-right{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
   }
 }
 

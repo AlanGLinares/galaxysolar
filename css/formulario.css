@@ -20,11 +20,17 @@
 
 .formulario-container p {
   font-family: 'Inter', sans-serif;
-  padding-bottom: 16px;
+  font-size: 24px;
   color: #5A657A;
-  width: 832px;
   height: 110px;
-  text-align: left;
+  
+}
+
+
+.formulario-container p {
+  width: 619px;
+  font-size: 14px;
+  margin-bottom: 0px;
 }
 
 .form input::selection::placeholder {
@@ -126,29 +132,17 @@
 }
 
 
-@media (max-width: 414px) {
-  .formulario-bg {
-    background-color: #19191B;
-    width: 100vh;
-  }
-  
-}
 
 
-@media (max-width: 744px) {
+
+@media (max-width: 768px) {
   .formulario-container {
     padding-left: 20px;
     padding-bottom: 80px;
   }
+  
 
-  .formulario-container p {
-    max-width: 696px;
-  }
-
-
-
-  .formulario-main {
-  }
+  
 
   .form-nome-telefone {
     flex-direction: column;
@@ -159,14 +153,21 @@
 
   .form input,
   button {
-    width: 100%;
+    width: 685px;
   }
-
 }
 
 
 @media (max-width: 414px) {
+  .form input {
+    padding: 12px 14px;
+    width: 375px;
+    border-radius: 5px;
+  }
 
+  .form-btn {
+    width: 375px;
+  }
 }
 
 

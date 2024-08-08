@@ -33,9 +33,6 @@
   margin-bottom: 0px;
 }
 
-.form input::selection::placeholder {
-  margin-left: 12px;
-}
 
 .form-nome-telefone {
   display: flex;
@@ -46,6 +43,7 @@
 .form-nome-telefone label {
   position: absolute;
 }
+
 
 .form {
   display: block;
@@ -70,10 +68,10 @@
  
 }
 
-
 .form-nome-telefone input::placeholder {
   padding-left: 24px;
 }
+
 
 .form-email input::placeholder {
   padding-left: 24px;
@@ -118,8 +116,14 @@
 }
 
 .form-msg input::placeholder {
-  position: absolute;
-  top: 15px;
+  text-align: start;
+  position: relative;
+  top: -50px;
+  
+}
+
+.form-msg input::selection {
+  position: relative;
 }
 
 .form-btn {
@@ -169,6 +173,7 @@
     width: 375px;
   }
 }
+
 
 
 

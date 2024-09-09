@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ 
+ :root {
+  --primary-color: #0496ff;
+  --primary-text: #fff;
+  --second-gray: #5A657A
+  --background: #19191B;
+
+ } 
+
+ .gradiente {
+  background: linear-gradient(112deg, #0496FF 4.62%, #0076CB 95.38%);
+ }
+

@@ -1,0 +1,225 @@
+.formulario-bg {
+  background-color: #19191B;
+}
+
+.formulario-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 120px; 
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.formulario-container h1 {
+  color: var(--primary-text);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 12px;
+}
+
+.formulario-container p {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  color: #5A657A;
+  height: 110px;
+  
+}
+
+
+.formulario-container p {
+  width: 619px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+
+.form-nome-telefone {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 12px;
+}
+
+.form-nome-telefone label {
+  position: absolute;
+}
+
+
+.form {
+  display: block;
+  position: relative;
+}
+
+
+.icone {
+  position: absolute;
+  display: flex;
+  left: 10px;
+  top: 32px;
+  align-items: center;
+}
+
+.form label {
+  display: block;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+ 
+}
+
+.form-nome-telefone input::placeholder {
+  padding-left: 24px;
+}
+
+
+.form-email input::placeholder {
+  padding-left: 24px;
+}
+
+
+.form input {
+  padding: 12px 14px;
+  width: 544px;
+  border-radius: 5px;
+}
+
+.icone {
+  position: relative;
+}
+
+.form-email {
+  padding-bottom: 12px;
+}
+
+.form-email label {
+  position: absolute;
+}
+
+.form-email input {
+  width: 85%;
+}
+
+.form-msg label {
+  padding-bottom: 12px;
+}
+
+.form-msg {
+  padding-bottom: 12px;
+}
+
+.form-msg input {
+  width: 85%;
+  height: 154px;
+  display: flex;
+  
+}
+
+.form-msg input::placeholder {
+  text-align: start;
+  position: relative;
+  top: -50px;
+  
+}
+
+.form-msg input::selection {
+  position: relative;
+}
+
+.form-btn {
+  padding: 16px 135px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 1400px) {
+  .form-nome-telefone {
+    flex-direction: column;
+    display: block;
+    padding-bottom: 8px;
+  }
+  .form input {
+    width: 85%;
+    display: block;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .formulario-container {
+    padding-left: 20px;
+    padding-bottom: 80px;
+  }
+  
+
+  
+
+  .form-nome-telefone {
+    flex-direction: column;
+    width: 100%;
+    display: block;
+    padding-bottom: 8px;
+  }
+
+  .form input,
+  button {
+    width: 615px;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .form input {
+    padding: 12px 14px;
+    width: 375px;
+    border-radius: 5px;
+  }
+
+  .form-btn {
+    width: 375px;
+  }
+}
+
+
+
+
+@media (max-width: 375px) {
+  .formulario-container h1 {
+    font-size: 28px;
+  }
+
+
+  .formulario-container p {
+    display: none;
+  }
+
+  .form-nome-telefone input {
+    padding-bottom: 12px;
+  }
+
+  .py-m {
+    padding-bottom: 12px;
+  }
+
+  input {
+    max-width: 345px;
+  }
+
+
+  .form-msg input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  .form-btn {
+    padding: 0px;
+    width: 345px;
+    font-size: 18px;
+    height: 58px;
+  }
+}

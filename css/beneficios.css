@@ -1,0 +1,153 @@
+.beneficios {
+  max-width: 1440px;
+  padding: 120px;
+  display: grid;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.beneficios-main {
+  display: grid;
+  grid-template-columns: minmax(420px, 1fr) 1fr 1fr;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+
+.conteudo-left h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  line-height: 67.45px;
+}
+
+.conteudo-main-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding-left: 90px;
+}
+
+.conteudo-left p {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  padding-bottom: 12px;
+  line-height: 21.78px;
+}
+
+.conteudo-main-right h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  padding: 14px 0;
+}
+
+
+.conteudo-main-right p {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  padding-bottom: 12px;
+  width: 249px;
+  line-height: 21.78px;
+}
+
+.imovel {
+  padding-top: 20px;
+}
+
+@media (max-width: 1200px ){
+  .beneficios-main {
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo-left  {
+    text-align: center;
+  }
+
+  .conteudo-main-right {
+    padding-left: 90px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+    .beneficios-main {
+      grid-template-columns: 1fr;
+    }
+
+  .beneficios {
+    display: grid;
+    max-width: 744px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+  }
+
+  .conteudo-left {
+    padding-bottom: 40px;
+  }
+
+  .conteudo-main-right {
+    padding-left: 0px;
+    gap: 120px;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .beneficios {
+    padding-top: 53px;
+  }
+
+  .conteudo-left h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    line-height: 39.35px;
+  }
+
+  .conteudo-left {
+    padding-bottom: 24px;
+}
+
+
+  .conteudo-left p {
+    max-width: 327px;
+  }
+
+  .conteudo-main-right{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .beneficios {
+    padding-top: 53px;
+  }
+
+  .conteudo-left h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 12px;
+    line-height: 39.35px;
+  }
+
+  .conteudo-left {
+    padding-bottom: 24px;
+}
+
+
+  .conteudo-left p {
+    max-width: 327px;
+  }
+
+  .conteudo-main-right{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+}

@@ -1,0 +1,242 @@
+.trabalhos {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  padding-right: 40px;
+}
+
+.trabalhos h1 {
+  padding-left: 120px;
+  padding-bottom: 70px;
+  font-size: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 58.08px;
+}
+
+
+.trabalhos-flex {
+  padding-left: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+   /* display: inline-block; */
+  position: relative;
+}
+
+
+.img-1::after,
+.img-2::after,
+.img-3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.44)
+}
+
+.res-s,
+.com-s  {
+  display: block;
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+  z-index: 1;
+  top: 220px;
+  left: 20%;
+}
+
+.rur-s {
+  display: block;
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+  z-index: 1;
+  top: 220px;
+  left: 35%;
+}
+
+
+@media (max-width: 768px) {
+  .trabalhos-flex {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .trabalhos h1 {
+    padding-left: 20px;
+  }
+
+
+
+  .img-1 {
+    height: 220px;
+    width: 680px;
+    background-image: url(../img1/residencia-m.png);
+  }
+
+  .img-1-r {
+    display: none;
+  }
+
+  .res-s { 
+    top: 90px; 
+    left: 150px;
+  }
+
+  .img-2 {
+    height: 220px;
+    width: 680px;
+    background-image: url(../img1/comercial-m.png);
+  }
+
+  .img-2-c {
+    display: none;
+  }
+
+  .com-s {
+    top: 90px; 
+    left: 150px;
+  }
+ 
+ .img-3 {
+  height: 220px;
+  width: 680px;
+  background-image: url(../img1/rural-m.png);
+ }
+
+ .img-3-r {
+  display: none;
+ }
+
+ .rur-s {
+  top: 90px; 
+  left: 200px; 
+ }
+
+ .order {
+  order: -1;
+}
+
+.order-1 {
+  order: -1;
+}
+}
+
+
+@media (max-width: 414px) {
+  .trabalhos {
+    padding-top: 32px;
+  }
+
+  .trabalhos h1 {
+    font-size: 28px;
+    padding-bottom: 24px;
+  }
+  
+  .img-1 {
+    background-image: url(../img1/moblie-residencial.png);
+    width: 343px;
+    height: 219px;
+  }
+
+  .img-2 {
+    background-image: url(../img1/moblie-comercial.png);
+    width: 343px;
+    height: 219px;
+  }
+
+  .img-3 {
+    background-image: url(../img1/moblie-rural.png);
+    width: 343px;
+    height: 219px;
+  }
+
+
+  .res-s,
+  .com-s,
+  .rur-s {
+    font-size: 24px;
+  }
+
+
+  .res-s {
+    left:  103.87px;
+  }
+
+
+  .com-s {
+    left: 111.87px;
+  }
+
+  .rur-s {
+    left: 140.87px;
+  }
+}
+
+
+
+
+@media (max-width: 375px) {
+  .trabalhos {
+    padding-top: 32px;
+  }
+
+  .trabalhos h1 {
+    font-size: 28px;
+    padding-bottom: 24px;
+  }
+  
+  .img-1 {
+    background-image: url(../img1/moblie-residencial.png);
+    width: 343px;
+    height: 219px;
+  }
+
+  .img-2 {
+    background-image: url(../img1/moblie-comercial.png);
+    width: 343px;
+    height: 219px;
+  }
+
+  .img-3 {
+    background-image: url(../img1/moblie-rural.png);
+    width: 343px;
+    height: 219px;
+  }
+
+
+  .res-s,
+  .com-s,
+  .rur-s {
+    font-size: 24px;
+  }
+
+
+  .res-s {
+    left:  103.87px;
+  }
+
+
+  .com-s {
+    left: 111.87px;
+  }
+
+  .rur-s {
+    left: 140.87px;
+  }
+}

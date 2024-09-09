@@ -1,0 +1,178 @@
+.nossoclientes-bg {
+  background-color: #19191B;
+}
+
+
+.nossoclientes {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 65px;
+  padding-right: 40px;
+  padding-bottom: 120px;
+}
+
+
+.header-client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 145px;
+}
+
+.header-client h1 {
+  padding-left: 120px;
+  font-size: 48px; 
+  color: #fff;
+  font-family: 'inter', sans-serif;
+}
+
+.img-cliente {
+  display: flex;
+  justify-items: center;
+  gap: 20px;
+}
+
+
+.clientes-flex {
+  padding-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+
+.clientes-main-1 h3 {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  line-height: 33.89px;
+  padding: 14px 0px;
+}
+
+
+.clientes-main-1 p {
+  color: #5A657A;
+  font-family: 'Inter', sans-serif;
+  width: 352px;
+  height: 150px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.clientes-main h3 {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  line-height: 33.89px;
+  padding: 14px 0px;
+}
+
+.clientes-main p {
+  color: #5A657A;
+  font-family: 'Inter', sans-serif;
+  width: 30ch;
+  height: 150px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@media (max-width: 768px) {
+
+  .nossoclientes-bg {
+    padding: 20px;
+  }
+
+  .nossoclientes {
+    max-width: 744px;
+    padding-bottom: 80px;
+  }
+
+  .clientes-main {
+    padding-right: 20px;
+  }
+
+
+  .clientes-flex {
+    display: flex;
+    padding: 0px 12px;
+    margin-left: 45px;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+
+
+  .header-client {
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+
+  .header-client h1 {
+    padding-left: 20px;
+  }
+  
+ 
+}
+
+
+@media (max-width: 414px) {
+  .nossoclientes-bg {
+    background-color: #19191B;
+    padding: 0px;
+  }
+
+  .nossoclientes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-client {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .clientes-main-1 {
+    padding-left: 0px;
+  }
+   
+  
+  .clientes-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+}
+
+
+
+@media (max-width:375px) {
+  .nossoclientes {
+    padding-top: 0px;
+    padding-bottom: 4px;
+  }
+
+  .moblie-n-client {
+    display: none;
+  }
+
+
+  .header-client {
+    padding-right: 0px;
+    padding-bottom: 24px;
+  }
+
+
+  .header-client h1 {
+    font-size: 24px;
+    padding-left: 0px;
+  }
+
+
+  .clientes-flex p {
+    max-width: 343px;
+    color: #FFFFFFB2;
+  }
+}

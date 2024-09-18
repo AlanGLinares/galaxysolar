@@ -14,7 +14,20 @@
 }
 
 .conteudo {
-  margin-left: 120px;
+  margin: 0 auto;
+  animation: animeRight 1s ease-in-out;
+}
+
+
+@keyframes animeRight {
+  from {
+    opacity: 0;
+    transform: translate3d(-90px ,0 , 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 
@@ -29,6 +42,19 @@
 .img-hero {
   width: 543px;
   height: 360px;
+  animation: animeLeft 1s ease-in-out;
+}
+
+
+@keyframes animeLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(90px ,0 , 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 

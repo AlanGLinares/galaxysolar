@@ -40,23 +40,13 @@
   padding-bottom: 12px;
 }
 
-.form-nome-telefone label {
-  position: absolute;
+.form-nome-telefone input {
+  margin-top: 8px;
+  width: 550px;
 }
 
-
-.form {
-  display: block;
-  position: relative;
-}
-
-
-.icone {
-  position: absolute;
-  display: flex;
-  left: 10px;
-  top: 32px;
-  align-items: center;
+.form-email input {
+  margin-top: 20px;
 }
 
 .form label {
@@ -65,16 +55,6 @@
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 500;
- 
-}
-
-.form-nome-telefone input::placeholder {
-  padding-left: 24px;
-}
-
-
-.form-email input::placeholder {
-  padding-left: 24px;
 }
 
 
@@ -84,9 +64,6 @@
   border-radius: 5px;
 }
 
-.icone {
-  position: relative;
-}
 
 .form-email {
   padding-bottom: 12px;
@@ -133,6 +110,12 @@
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-btn:hover {
+  color: rgba(0, 0, 0, .5);
 }
 
 

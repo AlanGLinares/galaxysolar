@@ -13,6 +13,21 @@
   justify-content: space-between;
 }
 
+.conteudo-left {
+  animation: animeRight 1s ease-in-out;
+}
+
+@keyframes animeRight {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px ,0 , 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 
 .conteudo-left h1 {
   font-family: 'Inter', sans-serif;
@@ -22,18 +37,22 @@
   line-height: 67.45px;
 }
 
-.conteudo-main-right {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  padding-left: 90px;
-}
+
 
 .conteudo-left p {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   padding-bottom: 12px;
   line-height: 21.78px;
+}
+
+
+.conteudo-main-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding-left: 90px;
+  animation: animeLeft 1s ease-in-out;
 }
 
 .conteudo-main-right h2 {
@@ -44,13 +63,23 @@
   padding: 14px 0;
 }
 
-
 .conteudo-main-right p {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   padding-bottom: 12px;
   width: 249px;
   line-height: 21.78px;
+}
+
+@keyframes animeLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(90px ,0 , 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .imovel {

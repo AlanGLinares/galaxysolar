@@ -88,20 +88,15 @@
 .form-msg input {
   width: 85%;
   height: 154px;
-  display: flex;
-  
 }
 
-.form-msg input::placeholder {
-  text-align: start;
-  position: relative;
-  top: -50px;
-  
+.form-msg textarea {
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  padding-left: 10px;
+  padding-top: 12px;
 }
 
-.form-msg input::selection {
-  position: relative;
-}
 
 .form-btn {
   padding: 16px 135px;

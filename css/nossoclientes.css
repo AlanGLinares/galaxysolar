@@ -26,7 +26,7 @@
   font-family: 'inter', sans-serif;
 }
 
-.img-cliente {
+.img-cliente-header {
   display: flex;
   justify-items: center;
   gap: 20px;

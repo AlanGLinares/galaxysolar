@@ -57,6 +57,10 @@
   font-weight: 500;
 }
 
+.form label::placeholder {
+  color: rgba(0, 0, 0, .3);
+}
+
 
 .form input {
   padding: 12px 14px;
@@ -95,6 +99,7 @@
   font-family: 'Inter', sans-serif;
   padding-left: 10px;
   padding-top: 12px;
+  width: 85%;
 }
 
 

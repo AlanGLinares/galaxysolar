@@ -14,7 +14,6 @@
   padding-right: 40px;
 }
 
-
 .icone-header {
   cursor: pointer;
 }
@@ -31,7 +30,6 @@
   color: #fff;
   font-weight: 400;
 }
-
 
 .list-menu li  {
   padding: 12px 26px;
@@ -52,7 +50,6 @@
 .menu-moblie {
   display: none;
 }
-
 
 @media (max-width: 768px ) {
   .header-menu {
@@ -79,13 +76,10 @@
   }
 }
 
-
-
 @media (max-width: 414px) {
   body, html {
     overflow-x: hidden;
   }
-
 
   .icone-header {
     margin-left: 20px;
@@ -110,8 +104,6 @@
     width: 375px;
     padding: 4px;
   }
-
-
 
   .list-menu li:last-child {
     border: 2px solid var(--primary-color);
@@ -148,8 +140,6 @@
     border-top: 2px solid #0076CB;
   }
  */
-
-
   .menu-moblie {
     display: block;
     cursor: pointer;
@@ -163,10 +153,6 @@
   }
 
 }
-
-
-
-
 
 @media (max-width: 375px) {
   body, html {
@@ -197,8 +183,6 @@
     padding: 4px;
   }
 
-
-
   .list-menu li:last-child {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
@@ -213,7 +197,6 @@
     border-bottom: 1px solid #5A657A;
     width: 343px;
     padding-top: 12px;
-
   }
 
   /* ICONE HAMBURGER FEITO COM CSS .hamburger {  
@@ -234,7 +217,6 @@
     border-top: 2px solid #0076CB;
   }
  */
-
 
   .menu-moblie {
     display: block;

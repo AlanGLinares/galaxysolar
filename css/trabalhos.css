@@ -15,11 +15,9 @@
   line-height: 58.08px;
 }
 
-
 .trabalhos-flex {
   padding-left: 120px;
   display: flex;
-  justify-content: center;
   gap: 32px;
 }
 
@@ -68,7 +66,6 @@
   left: 35%;
 }
 
-
 @media (max-width: 768px) {
   .trabalhos-flex {
     flex-direction: column;
@@ -80,8 +77,6 @@
   .trabalhos h1 {
     padding-left: 20px;
   }
-
-
 
   .img-1 {
     height: 220px;
@@ -137,7 +132,6 @@
 }
 }
 
-
 @media (max-width: 414px) {
   .trabalhos {
     padding-top: 32px;
@@ -166,7 +160,6 @@
     height: 219px;
   }
 
-
   .res-s,
   .com-s,
   .rur-s {
@@ -177,7 +170,6 @@
   .res-s {
     left:  103.87px;
   }
-
 
   .com-s {
     left: 111.87px;

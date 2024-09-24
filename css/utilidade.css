@@ -4,7 +4,6 @@
   padding: 0px;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -13,12 +12,10 @@ ul {
   list-style: none;
 }
 
-
 img {
   display: block;
   max-width: 100%;
 }
-
  
  :root {
   --primary-color: #0496ff;
@@ -31,4 +28,3 @@ img {
  .gradiente {
   background: linear-gradient(112deg, #0496FF 4.62%, #0076CB 95.38%);
  }
-

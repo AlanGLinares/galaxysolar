@@ -34,8 +34,6 @@
   font-weight: 700;
 }
 
-
-
 @media (max-width: 768px) {
   .resultados {
     margin-left: 40px;
@@ -47,13 +45,11 @@
   }
 }
 
-
 @media (max-width: 670px) {
   .resultados {
     width: 600px;
   }
 }
-
 
 @media (max-width: 414px) {
   .moblie-none {
@@ -66,7 +62,6 @@
 
   .flex-item {
   }
-
 
   .resultados {
     max-width: 343px;
@@ -86,7 +81,6 @@
 
   .flex-item {
   }
-
 
   .resultados {
     max-width: 343px;

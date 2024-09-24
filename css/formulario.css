@@ -26,13 +26,11 @@
   
 }
 
-
 .formulario-container p {
   width: 619px;
   font-size: 14px;
   margin-bottom: 0px;
 }
-
 
 .form-nome-telefone {
   display: flex;
@@ -61,13 +59,11 @@
   color: rgba(0, 0, 0, .3);
 }
 
-
 .form input {
   padding: 12px 14px;
   width: 544px;
   border-radius: 5px;
 }
-
 
 .form-email {
   padding-bottom: 12px;
@@ -102,7 +98,6 @@
   width: 85%;
 }
 
-
 .form-btn {
   padding: 16px 135px;
   text-transform: uppercase;
@@ -118,29 +113,23 @@
   color: rgba(0, 0, 0, .5);
 }
 
-
 @media (max-width: 1400px) {
   .form-nome-telefone {
     flex-direction: column;
     display: block;
     padding-bottom: 8px;
   }
-  .form input {
+  .form-btn, .form input {
     width: 85%;
     display: block;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .formulario-container {
     padding-left: 20px;
     padding-bottom: 80px;
   }
-  
-
-  
 
   .form-nome-telefone {
     flex-direction: column;
@@ -148,34 +137,25 @@
     display: block;
     padding-bottom: 8px;
   }
-
-  .form input,
-  button {
-    width: 615px;
-  }
 }
 
-
 @media (max-width: 414px) {
+  .form-btn,
   .form input {
     padding: 12px 14px;
     width: 375px;
     border-radius: 5px;
   }
 
-  .form-btn {
+  .form textarea {
     width: 375px;
   }
 }
-
-
-
 
 @media (max-width: 375px) {
   .formulario-container h1 {
     font-size: 28px;
   }
-
 
   .formulario-container p {
     display: none;
@@ -189,10 +169,9 @@
     padding-bottom: 12px;
   }
 
-  input {
+  textarea, input {
     max-width: 345px;
   }
-
 
   .form-msg input::placeholder {
     font-family: 'Inter', sans-serif;

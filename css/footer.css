@@ -11,7 +11,6 @@
   padding-right: 40px;
 }
 
-
 .footer-img {
   padding-bottom: 8px;
 }
@@ -27,7 +26,6 @@
   padding-bottom: 20px;
 }
 
-
 .empresas a {
   text-decoration: none;
   display: flex;
@@ -35,7 +33,6 @@
   color: #5A657A;
   padding-bottom: 20px;
 }
-
 
 .empresas a:hover,
 .contatos span:hover {
@@ -52,13 +49,11 @@
   padding-bottom: 20px;
 }
 
-
 @media (max-width: 768px) {
   .footer-main {
     padding-left: 20px;
   }
 }
-
 
 @media (max-width: 414px) {
 
@@ -73,7 +68,6 @@
   
 }
 
-
 @media (max-width: 375px ) {
   .footer-bg {
     height: 488px;
@@ -83,11 +77,9 @@
    flex-direction: column;
   }
 
-
   .footer-main h3 {
     font-size: 31px;
   }
-
 
   .footer-main span {
     color: #FFFFFFB2;
@@ -96,7 +88,6 @@
 
   .footer-main a {
     color: #FFFFFFB2;
-
   }
 
   .icone-flex {

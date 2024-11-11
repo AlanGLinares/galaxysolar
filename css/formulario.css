@@ -34,11 +34,26 @@
 .form-nome-telefone {
   display: flex;
   gap: 30px;
-  padding-bottom: 12px;
 }
 
 .form-nome-telefone input {
   width: 550px;
+}
+
+.nome-label {
+  padding: 8px 0px;
+}
+
+.telefone-label {
+  padding: 8px 0px;
+}
+
+.email-label {
+  padding: 8px 0px;
+}
+
+.mensagem-label {
+  padding: 8px 0px;
 }
 
 .form label {

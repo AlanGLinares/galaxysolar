@@ -1,5 +1,5 @@
 .nossoclientes-bg {
-  background-color: #19191B;
+  background-color: #19191b;
 }
 
 .nossoclientes {
@@ -10,12 +10,11 @@
   margin: 0 auto;
 }
 
-
 .header-client h1 {
   padding-left: 120px;
-  font-size: 48px; 
+  font-size: 48px;
   color: #fff;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   padding-bottom: 70px;
 }
 
@@ -24,17 +23,14 @@
 .swiper {
   height: 475px;
   cursor: grab;
-  margin-left: 120px;
+  padding-left: 120px;
   overflow-x: hidden;
-}
-
-.swiper-scrollbar {
-  background-color: #0496ff;
 }
 
 .swiper-button-prev {
   position: absolute;
   top: 120px;
+  left: 80px;
 }
 
 .swiper-button-next {
@@ -47,21 +43,29 @@
     top: 120px;
     right: 10px;
   }
+
+  .swiper-button-prev {
+    left: 0px;
+  }
+
+  .swiper {
+    padding-left: 0;
+  }
 }
 
 /* SLIDER */
 
 .clientes-main-1 h3 {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 28px;
   line-height: 33.89px;
   padding: 14px 0px;
 }
 
 .clientes-main-1 p {
-  color: #5A657A;
-  font-family: 'Inter', sans-serif;
+  color: #5a657a;
+  font-family: "Inter", sans-serif;
   width: 352px;
   height: 150px;
   text-align: left;
@@ -70,7 +74,6 @@
 }
 
 @media (max-width: 768px) {
-
   .nossoclientes {
     max-width: 768px;
     padding-bottom: 0px;
@@ -80,35 +83,54 @@
   .header-client h1 {
     padding-left: 20px;
   }
-  
+
   .cliente {
     margin-left: 20px;
+  }
+
+  .swiper {
+    padding-left: 0;
+  }
+
+  .swiper-button-prev {
+    left: 0px;
   }
 }
 
 @media (max-width: 414px) {
   .nossoclientes-bg {
-    background-color: #19191B;
+    background-color: #19191b;
     padding: 0px;
   }
 
   .nossoclientes {
     padding-top: 20px;
-    padding-bottom: 20px;
   }
 
   .header-client {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  
+
+  .header-client h1 {
+    padding-bottom: 20px;
+  }
+
   .clientes-flex {
     display: flex;
     margin: 20px;
   }
+
+  .swiper {
+    padding-left: 0;
+  }
+
+  .swiper-button-prev {
+    left: 0px;
+  }
 }
 
-@media (max-width:375px) {
+@media (max-width: 375px) {
   .nossoclientes {
     padding-top: 0px;
     padding-bottom: 4px;
@@ -122,6 +144,14 @@
 
   .clientes-flex p {
     max-width: 343px;
-    color: #FFFFFFB2;
+    color: #ffffffb2;
+  }
+
+  .swiper {
+    padding-left: 0;
+  }
+
+  .swiper-button-prev {
+    left: 0px;
   }
 }

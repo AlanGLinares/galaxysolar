@@ -21,14 +21,14 @@
 .flex-item p {
   color: var(--background);
   font-size: 18px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   padding-top: 4px;
   max-width: max-content;
 }
 
 .number-blue {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 28px;
   color: var(--primary-color);
   font-weight: 700;
@@ -65,10 +65,9 @@
 
   .resultados {
     max-width: 343px;
-    margin-left: 20px;
     margin-top: -50px;
   }
- }
+}
 
 @media (max-width: 375px) {
   .moblie-none {
@@ -87,4 +86,4 @@
     margin-left: 20px;
     margin-top: -50px;
   }
- }
+}

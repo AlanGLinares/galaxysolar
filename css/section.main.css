@@ -22,7 +22,7 @@
 @keyframes animeRight {
   from {
     opacity: 0;
-    transform: translate3d(-160px ,0 , 0);
+    transform: translate3d(-90px ,0 , 0);
   }
   to {
     opacity: 1;
@@ -72,9 +72,8 @@
   }
 
   .conteudo {
-    margin-left: 0px;
-    padding-left: 0px;
     padding-bottom: 24px;
+    padding-left: 40px;
   }
 
   .bg-section {
@@ -82,13 +81,14 @@
   }
 
   .img-hero img {
-    max-width: 610px;
+    max-width: 730px;
+    padding-left: 40px;
   }
 }
 
 @media (max-width: 414px ) {
   .bg-section {
-    height: 600px;
+    height: 550px;
   }
 
   .section-flex {
@@ -113,24 +113,30 @@
 @media (max-width: 375px ) {
   .bg-section {
     max-width: 375px;
-    height: 600px;
+    height: 580px;
   }
 
   .section-flex {
+    padding-top: 20px;
     display: grid;
     grid-template-columns: 1fr ;
   }
 
+  .conteudo {
+    padding-left: 20px;
+  }
+
   .conteudo h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .conteudo p {
-    width: 343px;
+    max-width: 32ch;
   }
 
   .img-hero img {
+    margin-bottom: 0px;
     max-width: 343px;
-    margin-bottom: 60px;
+    padding-left: 20px;
   }
 }

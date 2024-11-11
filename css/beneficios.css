@@ -14,13 +14,13 @@
 }
 
 .conteudo-left {
-  animation: animeRight 2s forwards
+  animation: animeRight 2s forwards;
 }
 
 @keyframes animeRight {
   from {
     opacity: 0;
-    transform: translate3d(-90px ,0 , 0);
+    transform: translate3d(-90px, 0, 0);
   }
   to {
     opacity: 1;
@@ -29,7 +29,7 @@
 }
 
 .conteudo-left h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: bold;
   padding-bottom: 12px;
@@ -37,7 +37,7 @@
 }
 
 .conteudo-left p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   padding-bottom: 12px;
   line-height: 21.78px;
@@ -52,7 +52,7 @@
 }
 
 .conteudo-main-right h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 29.05px;
@@ -60,7 +60,7 @@
 }
 
 .conteudo-main-right p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   padding-bottom: 12px;
   width: 249px;
@@ -70,7 +70,7 @@
 @keyframes animeLeft {
   from {
     opacity: 0;
-    transform: translate3d(90px ,0 , 0);
+    transform: translate3d(90px, 0, 0);
   }
   to {
     opacity: 1;
@@ -82,31 +82,29 @@
   padding-top: 20px;
 }
 
-@media (max-width: 1200px ){
+@media (max-width: 1200px) {
   .beneficios-main {
     grid-template-columns: 1fr;
   }
 
-  .conteudo-left  {
+  .conteudo-left {
     text-align: center;
   }
 
   .conteudo-main-right {
     padding-left: 90px;
   }
-
 }
 
 @media (max-width: 768px) {
-    .beneficios-main {
-      grid-template-columns: 1fr;
-    }
+  .beneficios-main {
+    grid-template-columns: 1fr;
+  }
 
   .beneficios {
     display: grid;
     max-width: 744px;
-    padding-bottom: 60px;
-    padding-left: 20px;
+    padding: 60px;
   }
 
   .conteudo-left {
@@ -133,14 +131,13 @@
 
   .conteudo-left {
     padding-bottom: 24px;
-}
-
+  }
 
   .conteudo-left p {
     max-width: 327px;
   }
 
-  .conteudo-main-right{
+  .conteudo-main-right {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0px;
@@ -161,14 +158,13 @@
 
   .conteudo-left {
     padding-bottom: 24px;
-}
-
+  }
 
   .conteudo-left p {
     max-width: 327px;
   }
 
-  .conteudo-main-right{
+  .conteudo-main-right {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0px;

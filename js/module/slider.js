@@ -7,10 +7,6 @@ export default function initSwiper() {
         el: ".swiper-pagination",
         clickable: true,
       },
-      scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: true,
-      },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

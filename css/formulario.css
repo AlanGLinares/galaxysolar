@@ -1,29 +1,28 @@
 .formulario-bg {
-  background-color: #19191B;
+  background-color: #19191b;
 }
 
 .formulario-container {
   max-width: 1440px;
   margin: 0 auto;
-  padding-left: 120px; 
+  padding-left: 120px;
   padding-top: 60px;
   padding-bottom: 120px;
 }
 
 .formulario-container h1 {
   color: var(--primary-text);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 48px;
   padding-bottom: 12px;
 }
 
 .formulario-container p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
-  color: #5A657A;
+  color: #5a657a;
   height: 110px;
-  
 }
 
 .formulario-container p {
@@ -39,38 +38,25 @@
 }
 
 .form-nome-telefone input {
-  margin-top: 8px;
   width: 550px;
-}
-
-.form-email input {
-  margin-top: 20px;
 }
 
 .form label {
   display: block;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
 
 .form label::placeholder {
-  color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .form input {
   padding: 12px 14px;
   width: 544px;
   border-radius: 5px;
-}
-
-.form-email {
-  padding-bottom: 12px;
-}
-
-.form-email label {
-  position: absolute;
 }
 
 .form-email input {
@@ -92,7 +78,7 @@
 
 .form-msg textarea {
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding-left: 10px;
   padding-top: 12px;
   width: 85%;
@@ -102,7 +88,7 @@
   padding: 16px 135px;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
@@ -110,16 +96,16 @@
 }
 
 .form-btn:hover {
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1400px) {
   .form-nome-telefone {
     flex-direction: column;
     display: block;
-    padding-bottom: 8px;
   }
-  .form-btn, .form input {
+  .form-btn,
+  .form input {
     width: 85%;
     display: block;
   }
@@ -127,19 +113,58 @@
 
 @media (max-width: 768px) {
   .formulario-container {
-    padding-left: 20px;
-    padding-bottom: 80px;
+    padding: 40px 0 40px 40px;
   }
 
   .form-nome-telefone {
     flex-direction: column;
     width: 100%;
     display: block;
-    padding-bottom: 8px;
+    padding-bottom: 0px;
+  }
+
+  .form input {
+    width: 95%;
+    display: block;
+  }
+
+  .form-btn,
+  .form-msg textarea {
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    width: 95%;
+  }
+
+  .nome-label {
+    padding: 8px 0px;
+  }
+
+  .telefone-label {
+    padding: 8px 0px;
+  }
+
+  .email-label {
+    padding: 8px 0px;
+  }
+
+  .mensagem-label {
+    padding: 8px 0px;
   }
 }
 
 @media (max-width: 414px) {
+  .formulario-container {
+    padding: 20px;
+  }
+
+  .formulario-container h1 {
+    padding-bottom: 4px;
+  }
+
+  .formulario-container p {
+    font-size: 14px;
+  }
+
   .form-btn,
   .form input {
     padding: 12px 14px;
@@ -153,6 +178,10 @@
 }
 
 @media (max-width: 375px) {
+  .formulario-container {
+    padding: 20px;
+  }
+
   .formulario-container h1 {
     font-size: 28px;
   }
@@ -161,20 +190,13 @@
     display: none;
   }
 
-  .form-nome-telefone input {
-    padding-bottom: 12px;
-  }
-
-  .py-m {
-    padding-bottom: 12px;
-  }
-
-  textarea, input {
+  textarea,
+  input {
     max-width: 345px;
   }
 
   .form-msg input::placeholder {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
   }
 

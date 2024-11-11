@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #19191B;
+  background-color: #19191b;
 }
 
 .header-menu {
@@ -18,20 +18,19 @@
   cursor: pointer;
 }
 
-
 .menu a {
   color: #fff;
 }
 
-.list-menu  {
+.list-menu {
   display: flex;
   gap: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: 400;
 }
 
-.list-menu li  {
+.list-menu li {
   padding: 12px 26px;
   cursor: pointer;
 }
@@ -43,15 +42,15 @@
 }
 
 .list-menu li:last-child:hover {
-  border: 2px solid #0076CB;
+  border: 2px solid #0076cb;
   transition: all 1s ease-out;
-} 
+}
 
 .menu-moblie {
   display: none;
 }
 
-@media (max-width: 768px ) {
+@media (max-width: 768px) {
   .header-menu {
     padding: 32px 12px;
     display: flex;
@@ -67,17 +66,18 @@
     padding-bottom: 12px;
   }
 
-  .list-menu  {
+  .list-menu {
     display: flex;
     gap: 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     color: #fff;
     font-weight: 400;
   }
 }
 
 @media (max-width: 414px) {
-  body, html {
+  body,
+  html {
     overflow-x: hidden;
   }
 
@@ -97,7 +97,7 @@
     position: absolute;
     display: none;
     flex-direction: column;
-    background-color: #19191B;
+    background-color: #19191b;
     z-index: 2000;
     top: 87.4px;
     left: 16px;
@@ -116,10 +116,9 @@
   .list-menu li {
     padding-left: 0px;
     padding-right: 0px;
-    border-bottom: 1px solid #5A657A;
+    border-bottom: 1px solid #5a657a;
     width: 375px;
     padding-top: 12px;
-
   }
 
   /* ICONE HAMBURGER FEITO COM CSS .hamburger {  
@@ -145,17 +144,17 @@
     cursor: pointer;
     width: 24px;
     height: 24px;
-    background-color: #19191B;
+    background-color: #19191b;
     border: none;
     position: absolute;
     top: 45px;
     right: 18px;
   }
-
 }
 
 @media (max-width: 375px) {
-  body, html {
+  body,
+  html {
     overflow-x: hidden;
   }
 
@@ -175,7 +174,7 @@
     position: absolute;
     display: none;
     flex-direction: column;
-    background-color: #19191B;
+    background-color: #19191b;
     z-index: 2000;
     top: 87.4px;
     left: 16px;
@@ -194,7 +193,7 @@
   .list-menu li {
     padding-left: 0px;
     padding-right: 0px;
-    border-bottom: 1px solid #5A657A;
+    border-bottom: 1px solid #5a657a;
     width: 343px;
     padding-top: 12px;
   }
@@ -223,7 +222,7 @@
     cursor: pointer;
     width: 24px;
     height: 24px;
-    background-color: #19191B;
+    background-color: #19191b;
     border: none;
     position: absolute;
     top: 45px;

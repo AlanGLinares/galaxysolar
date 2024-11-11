@@ -1,10 +1,10 @@
 .footer-bg {
-  background-color: #19191B;
+  background-color: #19191b;
 }
 
 .footer-main {
   margin: 0 auto;
-  padding-left: 120px; 
+  padding-left: 120px;
   max-width: 1440px;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@
 }
 
 .footer-main h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--primary-text);
   padding-bottom: 20px;
 }
@@ -29,8 +29,8 @@
 .empresas a {
   text-decoration: none;
   display: flex;
-  font-family: 'Roboto', sans-serif;
-  color: #5A657A;
+  font-family: "Roboto", sans-serif;
+  color: #5a657a;
   padding-bottom: 20px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .contatos span {
-  color: #5A657A;
+  color: #5a657a;
   padding-bottom: 20px;
 }
 
@@ -56,25 +56,33 @@
 }
 
 @media (max-width: 414px) {
-
   .footer-bg {
-    background-color: #19191B;
+    background-color: #19191b;
     height: 450px;
   }
 
   .footer-main {
     display: grid;
   }
-  
+
+  .icone-flex {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
 }
 
-@media (max-width: 375px ) {
+@media (max-width: 375px) {
   .footer-bg {
     height: 488px;
   }
 
+  .footer-img {
+    padding-bottom: 12px;
+  }
+
   .footer-main {
-   flex-direction: column;
+    flex-direction: column;
   }
 
   .footer-main h3 {
@@ -82,16 +90,14 @@
   }
 
   .footer-main span {
-    color: #FFFFFFB2;
-
+    color: #ffffffb2;
   }
 
   .footer-main a {
-    color: #FFFFFFB2;
+    color: #ffffffb2;
   }
 
   .icone-flex {
-    padding-bottom: 36px;
+    padding-bottom: 12px;
   }
 }
-

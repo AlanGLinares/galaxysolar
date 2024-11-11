@@ -1,7 +1,7 @@
 .modal-container {
   height: 100vh;
   width: 100%;
-  background-color:  rgb(0,0,0,.5);
+  background-color: rgb(0, 0, 0, 0.5);
   display: none;
   padding-top: 180px;
   justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .modal-container.ativo {
-  animation: modal .3s forwards;
+  animation: modal 0.3s forwards;
 }
 
 @keyframes modal {
@@ -34,7 +34,7 @@
 
 .menu-modal {
   padding: 10px 24px;
-  background-color: #19191B;
+  background-color: #19191b;
   height: 400px;
   max-width: 500px;
   border-radius: 5px;
@@ -45,7 +45,7 @@
   align-items: center;
   color: var(--primary-color);
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   padding: 10px 12px;
   cursor: pointer;
@@ -77,10 +77,10 @@
   border-radius: 5px;
 }
 
-.menu-modal input:hover{
+.menu-modal input:hover {
   padding: 12px;
   border-radius: 5px;
-  border: 2px solid #0076CB;
+  border: 2px solid #0076cb;
 }
 
 .btn-submit {
@@ -91,27 +91,26 @@
   padding: 12px 24px;
   border-radius: 12px;
   max-width: 280px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   margin: 0 auto;
   cursor: pointer;
 }
 
 .btn-submit:hover {
-  background: linear-gradient(112deg, #0496FF 4.62%, #0076CB 95.38%);
+  background: linear-gradient(112deg, #0496ff 4.62%, #0076cb 95.38%);
 }
 
 .btn-cadastre {
   display: flex;
   padding-top: 20px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   justify-content: center;
 }
 
 .btn-cadastre:hover {
-  color: #0496FF;
-  transition:  1ms linear 1ms;
+  color: #0496ff;
+  transition: 1ms linear 1ms;
 }
-
